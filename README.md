@@ -3,9 +3,9 @@
 ![Rails_logo](http://rubyonrails.org/images/rails-logo.svg)
 
 ## Statique vs Dynamique
-Un **site statique** est un site qui présente les mêmes informations a tous les utilisateurs sans distinction.  
-* *Exemple:* un site vitrine pour présenter son entreprise.  
-A l'inverse un **site dynamique** va présenter les informations différement en fonction de l'utilisateur et de ses interactions avec le site internet.  
+Un **site statique** est un site qui présente les mêmes informations a tous les utilisateurs sans distinction.<br/> 
+* *Exemple:* un site vitrine pour présenter son entreprise.<br/> 
+A l'inverse un **site dynamique** va présenter les informations différement en fonction de l'utilisateur et de ses interactions avec le site internet.<br/> 
 * *Exemple:* les différents réseaux sociaux.
 
 ## Le MVC
@@ -49,4 +49,5 @@ Les **relations entre les models des BDD** correspondent aux relations entre les
 ## Les fonctions du CRUD
 Les fonctions du **CRUD** (_Create Read Update Delete_) correspondent aux quatre types d'opérations qu'il est possible d'effectuer sur les bases de données. Dans le cadre de notre blog, la fonction create permet la creation d'un nouvel élément dans la base de données: un article. La fonction read permet de récupérer les données liées à cet article. La fonction update permet une mise à jour des données de l'article (contenu, titre...). Enfin la fonction delete permet la suppression des données dans la base de données et donc de l'article en question.
 
+***
 [Mon GitHub](https://github.com/lsrck)
