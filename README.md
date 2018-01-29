@@ -1,4 +1,4 @@
-# Explications des concepts principaux de rails
+# Explication des concepts principaux de rails
 
 ![Rails_logo](http://rubyonrails.org/images/rails-logo.svg)
 
@@ -25,8 +25,7 @@ Le prinicpal intéret est ensuite de pouvoir manipuler ses données en choisissa
 Les bases de données sont organisées avec des tables reliées les unes aux autres par des clefs et sont dans notre cas gérés en utilisant le langage SQL.<br/> 
 
 ## GET/POST
-La méthode **get** permet de récupérer une ressource, à l'inverse la méthode **post** permet la création d'une nouvelle ressource.<br/> 
-On utilise ainsi la méthode get pour consulter un article du blog alors qu'on utilisera la methode post pour créer un nouvel article.
+La méthode **get** permet de récupérer une ressource, à l'inverse la méthode **post** permet la création d'une nouvelle ressource. On utilise ainsi la méthode get pour consulter un article du blog alors qu'on utilisera la methode post pour créer un nouvel article.
 
 
 ## Le concept de migration
@@ -48,12 +47,9 @@ Cette migration permet d'ajouter la table articles avec une colonne nommée titl
 En plus de ces deux colonnes, une colonne avec un identifiant unique (id) est ajoutée ainsi que deux colonnes qui contiennent la date et l'heure de creation et d'update.
 
 ## Les relations entre les models des BD
-Les **relations entre les models des BDD** correspondent aux relations entre les différentes informations d'une base de données.<br/> 
-Dans le cas du blog, il est défini qu'un article peut avoir plusieurs commentaires mais qu'il est impossible pour un commentaire d'être relié à plusieurs articles.
+Les **relations entre les models des BDD** correspondent aux relations entre les différentes informations d'une base de données. Dans le cas du blog, il est défini qu'un article peut avoir plusieurs commentaires mais qu'il est impossible pour un commentaire d'être relié à plusieurs articles.
 
 ## Les fonctions du CRUD
-Les fonctions du **CRUD** (_Create Read Update Delete_) correspondent aux quatre types d'opérations qu'il est possible d'effectuer sur les bases de données.<br/>  Dans le cadre de notre blog, la fonction create permet la creation d'un nouvel élément dans la base de données: un article.<br/>  
-La fonction read permet de récupérer les données liées à cet article. La fonction update permet une mise à jour des données de l'article (contenu, titre...).<br/>  
-Enfin la fonction delete permet la suppression des données dans la base de données et donc de l'article en question.
+Les fonctions du **CRUD** (_Create Read Update Delete_) correspondent aux quatre types d'opérations qu'il est possible d'effectuer sur les bases de données. Dans le cadre de notre blog, la fonction create permet la creation d'un nouvel élément dans la base de données: un article. La fonction read permet de récupérer les données liées à cet article. La fonction update permet une mise à jour des données de l'article (contenu, titre...). Enfin la fonction delete permet la suppression des données dans la base de données et donc de l'article en question.
 
 [Mon GitHub](https://github.com/lsrck)
