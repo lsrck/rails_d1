@@ -1,16 +1,17 @@
-#Explications des concepts principaux de rails#
+# Explications des concepts principaux de rails
 
+## Static vs Dynamic
+Un **site statique** est un site qui présente les mêmes informations a tous les utilisateurs sans distinction.
+*Exemple: un site vitrine pour présenter son entreprise.
+A l'inverse un **site dynamique** va présenter les informations différement en fonction de l'utilisateur et de ses interactions avec le site internet.
+*Exemple:* réseaux sociaux
 
-⋅⋅⋅*Un **site statique** est un site qui présente les mêmes informations a tous les utilisateurs sans distinction.⋅⋅
-⋅⋅⋅*Exemple:* un site vitrine pour présenter son entreprise.⋅⋅
-⋅⋅⋅A l'inverse un **site dynamique** va présenter les informations différement en fonction de l'utilisateur et de ses interactions avec le site internet.⋅⋅
-⋅⋅⋅*Exemple:* réseaux sociaux
-
+## Le MVC
 Le **Modele View Controler** est un "patron de conception" composé de trois types de modules ayant trois responsabilités différentes : les modèles, les vues et les contrôleurs.
-⋅⋅*Le **_Modele_** contient les données à afficher.
-⋅⋅*La **_View_** contient la présentation de l'interface graphique.
-⋅⋅*Le **_Controler_** pour finir contient la logique concernant les actions effectuées par l'utilisateur.
-Il permet de bien se repérer dans l'architecture du site internet et permet de bien comprendre les intéractions entre l'utilisateur et le site internet.
+* Le **_Modele_** contient les données à afficher.
+* La **_View_** contient la présentation de l'interface graphique.
+* Le **_Controler_** pour finir contient la logique concernant les actions effectuées par l'utilisateur. ⋅⋅
+⋅⋅⋅ Il permet de bien se repérer dans l'architecture du site internet et permet de bien comprendre les intéractions entre l'utilisateur et le site internet.
 
 *Les Routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controlleurs. Ce sont elles qui permettent la creation des chemins du site internet et de connaitre l'architecture du site. 
 
