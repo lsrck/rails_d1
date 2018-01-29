@@ -1,10 +1,10 @@
 #Explications des concepts principaux de rails#
 
 
-*Un **site statique** est un site qui présente les mêmes informations a tous les utilisateurs sans distinction.
-...*Exemple:* un site vitrine pour présenter son entreprise.
-...A l'inverse un **site dynamique** va présenter les informations différement en fonction de l'utilisateur et de ses interactions avec le site internet.
-...*Exemple:* réseaux sociaux
+⋅⋅⋅*Un **site statique** est un site qui présente les mêmes informations a tous les utilisateurs sans distinction.⋅⋅
+⋅⋅⋅*Exemple:* un site vitrine pour présenter son entreprise.⋅⋅
+⋅⋅⋅A l'inverse un **site dynamique** va présenter les informations différement en fonction de l'utilisateur et de ses interactions avec le site internet.⋅⋅
+⋅⋅⋅*Exemple:* réseaux sociaux
 
 Le **Modele View Controler** est un "patron de conception" composé de trois types de modules ayant trois responsabilités différentes : les modèles, les vues et les contrôleurs.
 ⋅⋅*Le **_Modele_** contient les données à afficher.
